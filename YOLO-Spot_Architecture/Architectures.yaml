@@ -105,7 +105,7 @@ head:
    [-1, 1, Conv, [256, 1, 1, None, 1, nn.LeakyReLU(0.1)]],  # 73
 
    # introducing "RepConv"
-   #Adopted from https://github.com/WongKinYiu/yolov7/blob/main/models/common.py.
+   # Adopted from https://github.com/WongKinYiu/yolov7/blob/main/models/common.py
    [57, 1, RepConv, [64, 3, 1, None, 1, nn.LeakyReLU(0.1)]], 
    [65, 1, RepConv, [128, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
    [73, 1, RepConv, [256, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
