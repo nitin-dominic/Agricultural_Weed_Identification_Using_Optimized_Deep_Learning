@@ -14,7 +14,7 @@ The work presented in this research uses state-of-the-art [YOLOv7 tiny](https://
 4. YOLO-Spot_M model achieves accuracy (+1.3%) and mAP (+2.7%) compared to YOLO-base model.
 5. YOLO-Spot_M with half-precision gains 5X times inferencing speed on an edge device.
 
-## Hardware used to perform training and inferencing:
+## Hardware used to perform training and inference tasks:
 ![Hardware used](https://raw.githubusercontent.com/nitin-dominic/Agricultural_Weed_Identification_Using_Optimized_Deep_Learning/main/Appendix.png)
 
 
