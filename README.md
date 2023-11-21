@@ -8,10 +8,13 @@ The work presented in this research uses state-of-the-art [YOLOv7 tiny](https://
 3. Conversion to FP16 (floating points) to edge deployment
 
 ## Highlights of this research swork includes:
-1. Open-source dataset: 3,929 images and 12k bounding-box annotations used in this study. [Click here](https://data.mendeley.com/datasets/8kjcztbjz2/2)
+1. [Open-source dataset](https://data.mendeley.com/datasets/8kjcztbjz2/2): 3,929 images and 12k bounding-box annotations used in this study.
 2. Deep learning model optimization using pruning and integrating re-parameterization module.
 3. Assessing the effects of training multiple image resolution on the optimized YOLO-Spot model.
 4. YOLO-Spot_M model achieves accuracy (+1.3%) and mAP (+2.7%) compared to YOLO-base model.
 5. YOLO-Spot_M with half-precision gains 5X times inferencing speed on an edge device.
+
+## Hardware used to perform training and inferencing:
+![Hardware used](https://raw.githubusercontent.com/nitin-dominic/Agricultural_Weed_Identification_Using_Optimized_Deep_Learning/main/Appendix.png)
 
 
